@@ -26,6 +26,8 @@ main {
   min-height: 65vh;
   padding: 1rem;
   display: flex;
+  background: url("./manyminions.jpg") center center/cover;
+  filter: grayscale(40%);
 }
 
 main button {
@@ -33,6 +35,25 @@ main button {
   margin: 1rem;
   padding: 1rem;
   width: 10%;
+  background-color: #e9c46a;
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  outline: 1px solid #000;
+  outline-offset: 3px;
+  cursor: pointer;
+}
+
+.output__container {
+  background-color: #ffffe5;
+}
+/* 
+textarea {
+  background-color: rgba(255, 255, 255, 0.6);
+} */
+
+.output__container {
+  background-color: #fff;
 }
 
 .input__container textarea {
